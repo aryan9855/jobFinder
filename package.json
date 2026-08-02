@@ -1,0 +1,14 @@
+{
+  "name": "job-tracker",
+  "version": "1.0.0",
+  "description": "Simple Node.js CLI that stores job postings locally in JSON",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "fetch": "node index.js fetch",
+    "list": "node index.js list"
+  },
+  "dependencies": {
+    "axios": "^1.7.0"
+  }
+}
